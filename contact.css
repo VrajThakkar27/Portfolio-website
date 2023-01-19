@@ -1,0 +1,41 @@
+h1
+{
+    /* color: black; */
+    text-align: center;
+}
+.contactForm
+{
+    color: black;
+    margin: 10vw;
+}
+form div{
+    margin: 12px 0px;
+}
+#emailHelp
+{
+    color: midnightblue;
+}
+.mb-0
+{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+}
+.mb-1
+{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+}
+.mb-2
+{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+}
+.mb-3
+{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+}

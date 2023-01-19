@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.font
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+.skill
+{
+    margin: 20px 0px;
+    background-color: red;
+    height: 6px;
+    width: 265px;
+    border: 2px solid black;
+}
+.main
+{
+    margin-top: 3vh;
+    margin-left: 6vw;
+}
+.skill1
+{
+    width: 300px;
+}
+.skill2
+{
+    width: 280px;
+}
+.skill3
+{
+    width: 230px;
+}
+h2{
+    color: black;
+    margin: 10px 0px;
+}
+p
+{
+    color: black;
+}
+.skillItem 
+{
+    color: black;
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+.t100
+{
+    color: red;
+}
+.skillContainer
+{
+    width: 350px;
+    margin: 20px 0px;
+    background-color: white;
+}

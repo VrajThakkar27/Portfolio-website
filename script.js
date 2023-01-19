@@ -1,0 +1,20 @@
+console.log('Hi')
+document.querySelector('.arrow').style.display='none';
+document.querySelector('.menu').addEventListener('click',function(){
+    document.querySelector('.header').classList.toggle('menubarGo');
+
+    if(document.querySelector('.header').classList.contains('menubarGo'))
+    {
+        setTimeout(function(){
+            document.querySelector('.ham').style.display='inline';
+        },300)
+        document.querySelector('.arrow').style.display='none';
+    }
+    else
+    {
+        document.querySelector('.ham').style.display='none';
+        setTimeout(function(){
+            document.querySelector('.arrow').style.display='inline';
+        },300)
+    }
+})
